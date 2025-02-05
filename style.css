@@ -1,0 +1,23 @@
+body {
+    padding: 10px;
+    direction: rtl
+}
+header {
+    background: linear-gradient(135deg, #FFC0CB, #FF69B4);
+    display: flex;
+    justify-content: space-between;
+    text-shadow: black;
+    width: 100%;
+    height: 20vh;
+}
+#Home {
+    background: url(./download.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100vh;
+}
+#Home h1, h2 {
+    color: #FF69B4;
+    font-family: "Amiri";
+}
